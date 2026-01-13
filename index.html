@@ -140,22 +140,60 @@ if(!localStorage.getItem("tg_skip")){
     }
   },1500);
 }
-
+/* ========== ADMIN PANEL (CHANNEL LIST) ========== */
 const CHANNELS = {
 
-  willow:{ name:"Willow", url:"https://allinonereborn.xyz/mix.m3u8/live2.php?id=276740" },
-  willow2:{ name:"Willow 2", url:"https://allinonereborn.xyz/mix.m3u8/live2.php?id=282231" },
-  star1:{ name:"Live 3", url:"https://allinonereborn.xyz/mix.m3u8/live2.php?id=276730" },
-  fox:{ name:"Live 4", url:"https://allinonereborn.xyz/mix.m3u8/live2.php?id=197185" },
-  hoster:{ name:"Live 5", url:"https://hugh.cdn.rumble.cloud/live/k5e12sb4/slot-3/1g6j-g9yt_360p/chunklist_DVR.m3u8" },
-  live6:{ name:"Live 6", url:"https://example.com/live6.m3u8" },
-  live7:{ name:"Live 7", url:"https://example.com/live7.m3u8" },
-  live8:{ name:"Live 8", url:"https://example.com/live8.m3u8" },
-  live9:{ name:"Live 9", url:"https://example.com/live9.m3u8" }
+  live1: {
+    name: "Live 1",
+    url: "https://allinonereborn.xyz/mix.m3u8/live2.php?id=303627"
+  },
+
+  live2: {
+    name: "Live 2",
+    url: "https://allinonereborn.xyz/mix.m3u8/live2.php?id=303629"
+  },
+
+  live3: {
+    name: "Live 3",
+    url: "https://allinonereborn.xyz/mix.m3u8/live2.php?id=13141"
+  },
+
+  live4: {
+    name: "Live 4",
+    url: "https://allinonereborn.xyz/mix.m3u8/live2.php?id=276740"
+  },
+
+  live5: {
+    name: "Live 5",
+    url: "https://allinonereborn.xyz/mix.m3u8/live2.php?id=282231"
+  },
+
+  live6: {
+    name: "Live 6",
+    url: "https://allinonereborn.xyz/mix.m3u8/live2.php?id=10527"
+  },
+
+  live7: {
+    name: "Live 7",
+    url: "https://allinonereborn.xyz/mix.m3u8/live2.php?id=77413"
+  },
+
+  live8: {
+    name: "Live 8",
+    url: "https://allinonereborn.xyz/mix.m3u8/live2.php?id=197185"
+  },
+
+  live9: {
+    name: "Live 9",
+    url: "https://allinonereborn.xyz/mix.m3u8/live2.php?id=276736"
+  },
+
+  live10: {
+    name: "Live 10",
+    url: "https://allinonereborn.xyz/mix.m3u8/live2.php?id=276737"
+  }
 
 };
-
-
 /* ========== STREAM SELECTOR ========== */
 const params = new URLSearchParams(window.location.search);
 const ch = params.get("ch");
@@ -214,6 +252,7 @@ window.onload = function(){
 
 </body>
 </html>
+
 
 
 
